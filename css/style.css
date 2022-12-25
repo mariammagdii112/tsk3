@@ -1,0 +1,123 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../images/259580-concert-festival-music-and-stage-hd.jpg);
+
+  background-size: cover;
+}
+section , .front , .back {
+    width: 250px;
+    height: 400px;
+  
+  float: left;
+ 
+}
+.back {
+
+   background-image: url(../images/images.jpg);
+   background-size: cover;
+   transform: rotateY(180deg); 
+  text-transform: capitalize;
+  color: rgb(248, 248, 248);
+  text-align: center; 
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+
+p{
+    padding-top: 20px;
+}
+section {
+  margin-left: 270px;
+  margin-top: 100px;
+   transform-style: preserve-3d;
+   position: relative;
+   transition: all 2s;
+}
+.front , .back {
+   position: absolute;
+  
+}
+.front {
+   z-index:  1;
+   backface-visibility: hidden;
+   background-image: url(../Images/500x500.jpg);
+   background-size: cover;
+}
+
+section:hover {
+   transform: rotateY(180deg); 
+}
+/* /////////////////////////////////////////////////////////// */
+ .sec , .front1 , .back1 {
+    width: 250px;
+    height: 400px;
+  
+}
+.back1 {
+  background-image: url(../images/images.jpg);
+  background-size: cover;
+   transform: rotateY(180deg); 
+   text-transform: capitalize;
+   color: rgb(243, 236, 236);
+   text-align: center; 
+   font-size: 18px;
+   font-weight: bold;
+
+}
+.sec{
+  margin-left: 50px;
+   transform-style: preserve-3d;
+   position: relative;
+   transition: all 2s;
+}
+.front1 , .back1 {
+   position: absolute;
+}
+.front1{
+   z-index:  1;
+   backface-visibility: hidden;
+   background-image: url(../Images/HD-wallpaper-oppoxhamaki-hamaki-mohamed-hamaki-oppo.jpg);
+   background-size: cover;
+}
+
+.sec:hover {
+   transform: rotateY(180deg); 
+}
+/* ////////////////////////////////////////// */
+
+ .sec1, .front2 , .back2 {
+    width: 250px;
+    height: 400px;
+
+}
+.back2 {
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+   transform: rotateY(180deg); 
+   text-transform: capitalize;
+   color: rgb(243, 237, 237);
+   text-align: center; 
+   font-size: 18px;
+   font-weight: bold;
+
+}
+.sec1{
+  margin-left: 50px;
+   transform-style: preserve-3d;
+   position: relative;
+   transition: all 2s;
+}
+.front2 , .back2 {
+   position: absolute;
+}
+.front2 {
+   z-index:  1;
+   backface-visibility: hidden;
+   background-image: url(../Images/Screen-Shot-2020-02-13-at-1.08.21-PM.png);
+   background-size: cover;
+}
+
+.sec1:hover {
+   transform: rotateY(180deg); 
+}
